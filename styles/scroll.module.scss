@@ -1,0 +1,15 @@
+$finalHeight: 250px;
+$finalWidth: 3 * $finalHeight;
+$scrollBarHeight: 1px;
+
+#scroll {
+    &::-webkit-scrollbar {
+        width: $scrollBarHeight;
+        height: $scrollBarHeight;
+    }
+
+    &::-webkit-scrollbar-button {
+        width: $scrollBarHeight;
+        height: $scrollBarHeight;
+    }
+}
